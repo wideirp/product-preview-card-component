@@ -113,6 +113,14 @@ main {
         padding: 1rem;
         vertical-align: middle;
       }
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline: none;
+        background-color: darken($clr-primary-dark, 10%);
+        box-shadow: inset 2px 2px 2px $clr-primary-dark;
+      }
     }
   }
 }
